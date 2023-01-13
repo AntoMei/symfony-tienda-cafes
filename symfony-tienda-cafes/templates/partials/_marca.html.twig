@@ -3,8 +3,12 @@
 <h1 class="heading"> Nuestras <span>marcas</span> </h1>
 
     <div class="box-container">
+     {% for marcaMember in marca %}
+      <img class="img-fluid-w-100" src="{{ asset('images/' ~ marcaMember.photo) }}" alt="">
+      <p class="m-0">{{ marcaMember.designation }}</p>
+       {% endfor %}
 
-        <div class="box">
+        <!--<div class="box">
             <img src="images/cafe1.png" alt="">
             <h3>Nescafé</h3>
         </div>
@@ -27,7 +31,7 @@
         <div class="box">
             <img src="images/cafe5.png" alt="">
             <h3>L'OR</h3>
-        </div>
+        </div>-->
 
     </div>
 
