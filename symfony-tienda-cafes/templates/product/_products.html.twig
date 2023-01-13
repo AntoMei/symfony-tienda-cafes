@@ -1,0 +1,24 @@
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="box2-container">
+    <div class="box">
+
+        {% for product in products %}
+        <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+        </div>
+
+        <div class="imagen">
+        <img class="image" src="{{ asset('images/' ~ product.photo) }}" alt="{{product.name}}">
+        </div>
+
+       <h6 class="text-uppercase">{{product.name}}</h6>
+        <h2 class="text-primary-mb-0">{{product.price |number_format(2, '.', ',')}} €</h2>
+        {% endfor %}
+    </div>
+    </div>
+</section>
