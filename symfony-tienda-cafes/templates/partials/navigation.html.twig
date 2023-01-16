@@ -15,6 +15,7 @@
         <a href="{{ path('review') }}" class="nav-item nav-link {{ (app.request.attributes.get('_route') == 'review')  ? 'active': ''}}">Review</a>
         <a href="{{ path('contact') }}" class="nav-item nav-link {{ (app.request.attributes.get('_route') == 'contact')  ? 'active': ''}}">Contact</a>
         <a href="{{ path('blog') }}" class="nav-item nav-link {{ (app.request.attributes.get('_route') == 'blog')  ? 'active': ''}}">Blogs</a>
+         <a href="{{ path('app_cart') }}" class="nav-item nav-link {{ (app.request.attributes.get('_route') == 'app_cart')  ? 'active': ''}}"><i class="bi bi-cart"></i> Cart</a>
     </nav>
 
     <div class="icons">

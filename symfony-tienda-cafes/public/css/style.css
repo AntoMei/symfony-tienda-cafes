@@ -578,7 +578,10 @@ section{
     font-size: 20px
 }
 
-
+.col-12-col-sm-5-h-100{
+    background-color: #313135;
+    margin-top: 100px;
+}
 
 
 
