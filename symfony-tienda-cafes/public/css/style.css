@@ -578,61 +578,9 @@ section{
     font-size: 20px
 }
 
-.products .box2-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
-}
 
-.products .box2-container .box{
-    text-align: center;
-    border:var(--border);
-    padding: 2rem;
-    display: inline-flex;
-    margin: -20px;
-}
-.products .box2-container .box{
-    text-align: center;
-    border:var(--border);
-    padding: 2rem;
-}
 
-.products .box2-container .box .icons a{
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    border:var(--border);
-    color:#fff;
-    margin:.3rem;
-}
 
-.products .box2-container .box .icons a:hover{
-    background:var(--main-color);
-}
-
-.products .box2-container .box .image{
-    padding: 2.5rem 0;
-    margin-top: 70px;
-}
-
-.products .bo2-container .box .image img{
-    height: 25rem;
-}
-
-.products .bo2-container .box .text-uppercase h6{
-    margin-top: -20%;
-}
-
-h6{
-    margin-top: 20%;
-    margin-right: -150%;
-}
-
-h2{
-    margin-top: 20%;
-    margin-left: 50px;
-}
 
 /* media queries  */
 @media (max-width:991px){
