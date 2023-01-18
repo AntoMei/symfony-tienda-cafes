@@ -597,6 +597,27 @@ section{
     background-color:#332a1f;
 }
 
+
+#registration_form_email{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:rgb(255, 255, 255);
+    text-transform: none;
+    background:none;
+    background-color: #313135;
+}
+
+#registration_form_plainPassword{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:rgb(255, 255, 255);
+    text-transform: none;
+    background:none;
+    background-color: #313135;
+}
+
 /* media queries  */
 @media (max-width:991px){
 
