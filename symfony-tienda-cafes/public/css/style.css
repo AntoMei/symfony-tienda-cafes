@@ -583,7 +583,19 @@ section{
     margin-top: 100px;
 }
 
+.box2{
+    margin-top: 100px;
+}
 
+.texto-producto{
+    margin-top: 20px;
+    color: #d3ad7f;
+    font-size: 20px;
+}
+
+.caja2{
+    background-color:#332a1f;
+}
 
 /* media queries  */
 @media (max-width:991px){
