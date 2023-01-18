@@ -618,6 +618,29 @@ section{
     background-color: #313135;
 }
 
+.required{
+    font-size: 20px;
+}
+
+.form-control{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:rgb(255, 255, 255);
+    text-transform: none;
+    background:none;
+    background-color: #313135;
+    text-transform: lowercase;
+}
+
+.container{
+    margin-top: 180px;
+    margin-bottom: 280px;
+}
+
+.mb-3{
+    margin-top: 100px;
+}
 /* media queries  */
 @media (max-width:991px){
 
